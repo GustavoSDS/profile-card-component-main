@@ -75,10 +75,8 @@ main {
   padding-bottom: 0.5em;
 }
 hr {
-  border: 0;
-  height: 1px;
-  opacity: 0.5;
-  background-color: var(--darkGray);
+    border-color: hsla(0, 0%, 59%, 0.151);
+    margin: 10px 0
 }
 .stats {
   display: flex;
@@ -88,13 +86,13 @@ hr {
   padding: 1.2em 0;
   line-height: 1.6;
 }
-.stats ul span {
+.stats .attributions span {
   color: var(--darkBlue);
   font-weight: var(--fontBold);
   font-size: 1.1em;
   padding: 0;
 }
-.stats ul li {
+.stats .attributions .attribution {
   color: var(--grayBlue);
   font-weight: var(--fontNormal);
   font-size: 0.625em;
