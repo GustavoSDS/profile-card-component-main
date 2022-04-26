@@ -40,7 +40,7 @@ main {
   background-color: var(--white);
   background-image: url("../images/bg-pattern-card.svg");
   background-repeat: no-repeat;
-  min-height: 55%;
+  min-height: 50%;
   border-radius: 15px;
   box-shadow: var(--cardShadow);
 }
@@ -75,9 +75,9 @@ main {
   padding-bottom: 0.5em;
 }
 hr {
+    border: 1px solid;
     border-color: hsla(0, 0%, 59%, 0.151);
     height: 1px;
-    margin: 0.5em 0;
 }
 .stats {
   display: flex;
