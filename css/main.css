@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.photos {
+  background: url(../images/bg-pattern-top.svg) left top -350px no-repeat,
+    url(../images/bg-pattern-bottom.svg) right bottom -350px no-repeat; 
+    background-size: 47%;
+}
+.img {
+  background-image: url("../images/bg-pattern-card.svg");
+  height: 150px;
+  width: 100%;
+  background-color: #00b5f7;
+}
+.color-dark {
+  color: hsl(229, 23%, 23%)
+}
+.color-dark-grayish {
+  color: hsl(227, 10%, 46%)
+}
+
+@media screen and (max-width: 460px) {
+  .photos {
+    background: url(../images/bg-pattern-bottom.svg) 250px 440px no-repeat,
+      url(../images/bg-pattern-top.svg) -250px -150px no-repeat; 
+      background-size: 110%;
+  }
+}
+  
