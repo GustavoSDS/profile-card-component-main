@@ -35,7 +35,7 @@ main {
   align-items: center;
 }
 .card {
-  width: 90%;
+  width: 95%;
   max-width: 330px;
   background-color: var(--white);
   background-image: url("../images/bg-pattern-card.svg");
@@ -77,6 +77,7 @@ main {
 hr {
     border-color: hsla(0, 0%, 59%, 0.151);
     height: 1px;
+    margin: 0.5em 0;
 }
 .stats {
   display: flex;
