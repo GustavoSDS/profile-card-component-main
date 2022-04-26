@@ -43,7 +43,6 @@ Screenshot of the profile card for mobile.
 - Semantic HTML5 markup
 - CSS custom properties
 - flexible box
-- CSS Grid
 - Mobile first workflow
 
 
@@ -66,14 +65,10 @@ I'm not sure if these are the correct styles for the `<hr>` tag in this project,
 }
 ```
 
-If you want more help writing Markdown, we recommend that you check out the [Markdown Guide](https://www.markdownguide.org/) for more information.
-
-
 ### Useful Resources
 
 - [Resource 1](http://thomashw.github.io/blog/2013/07/22/styling-a-horizontal-rule/) - This helped me style the `<hr>` htm tag
-- [Resource 2](https://www.delftstack.com/es/howto/css/css-background-image-not-working/#:~:text=im%C3%A1genes%20de%20fondo.-, Add%20a%20image%20of%20background%20in%20CSS%20when%20the%20image,the%20image%20is%20the%20par%C3%A1meter.) - This is an amazing article that finally helped me understand the use of background images. I would recommend it to anyone who is still learning the concept of background.
-
+- [Resource 2](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me learn the flexbox
 ## Author
 
 - Website - [Gustavo S. Dos Santos] (https://coruscating-cannoli-fb9ee6.netlify.app/)
