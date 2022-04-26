@@ -74,11 +74,7 @@ main {
   font-size: 0.9em;
   padding-bottom: 0.5em;
 }
-hr {
-    border: 1px solid;
-    border-color: hsla(0, 0%, 59%, 0.151);
-    height: 1px;
-}
+
 .stats {
   display: flex;
   justify-content: space-evenly;
