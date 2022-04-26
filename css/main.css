@@ -60,21 +60,25 @@ main {
   padding: 1em 0;
   line-height: 1.6;
 }
-.profilename strong {
+.profilename h1 {
   color: var(--darkBlue);
   font-weight: var(--fontBold);
   font-size: 1.2em;
 }
-.profilename span {
+.profilename h1 span {
   color: var(--grayBlue);
   font-weight: var(--fontNormal);
-  font-size: 1.2em;
+  font-size: 1em;
 }
 .profilename p {
   font-size: 0.9em;
   padding-bottom: 0.5em;
 }
-
+hr {
+    border: 1px solid;
+    border-color: hsla(0, 0%, 59%, 0.151);
+    height: 1px;
+}
 .stats {
   display: flex;
   justify-content: space-evenly;
