@@ -77,8 +77,8 @@ main {
 }
 hr {
   border: 0;
-  height: 0.1px;
-  opacity: 0.6;
+  height: 1px;
+  opacity: 0.5;
   background-color: var(--darkGray);
 }
 .stats {
@@ -89,7 +89,7 @@ hr {
   padding: 1.2em 0;
   line-height: 1.6;
 }
-.stats ul {
+.stats ul span {
   color: var(--darkBlue);
   font-weight: var(--fontBold);
   font-size: 1.1em;
