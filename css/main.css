@@ -7,7 +7,6 @@
   --grayBlue: hsl(227, 10%, 46%);
   --darkGray: hsl(0, 0%, 59%);
   --white: hsl(0, 0%, 100%);
-
   --bgImages: url("../images/bg-pattern-top.svg"),
     url("../images/bg-pattern-bottom.svg");
   --cardShadow: 0 10px 20px 10px hsla(0, 0%, 0%, 0.1);
