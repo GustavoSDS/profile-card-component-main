@@ -12,18 +12,14 @@
   --cardShadow: 0 10px 20px 10px hsla(0, 0%, 0%, 0.1);
 }
 
-/* main css */
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
-}
-main {
 }
 .flex-wrap {
   min-width: 100vw;
@@ -55,8 +51,6 @@ main {
 }
 .profilename {
   text-align: center;
-  padding: 1em 0;
-  line-height: 1.6;
 }
 .profilename h1 {
   color: var(--darkBlue);
@@ -67,15 +61,6 @@ main {
   color: var(--grayBlue);
   font-weight: 400;
   font-size: 1em;
-}
-.profilename p {
-  font-size: 0.9em;
-  padding-bottom: 0.5em;
-}
-hr {
-    border: 1px solid;
-    border-color: hsla(0, 0%, 59%, 0.151);
-    height: 1px;
 }
 .stats {
   display: flex;
