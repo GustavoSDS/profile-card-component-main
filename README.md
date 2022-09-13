@@ -54,7 +54,6 @@ Use this section to recap some of your main learnings while working on this proj
 
 ### Useful Resources
 
-- [Resource 1](http://thomashw.github.io/blog/2013/07/22/styling-a-horizontal-rule/) - This helped me style the `<hr>` htm tag
 - [Resource 2](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This helped me learn the flexbox
 ## Author
 
