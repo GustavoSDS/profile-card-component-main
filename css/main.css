@@ -7,106 +7,100 @@
   --grayBlue: hsl(227, 10%, 46%);
   --darkGray: hsl(0, 0%, 59%);
   --white: hsl(0, 0%, 100%);
-  --fontNormal: 400;
-  --fontBold: 700;
+
   --bgImages: url("../images/bg-pattern-top.svg"),
     url("../images/bg-pattern-bottom.svg");
   --cardShadow: 0 10px 20px 10px hsla(0, 0%, 0%, 0.1);
 }
 
-/* main css */
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 body {
   font-family: "Kumbh Sans", sans-serif;
-  font-weight: var(--fontNormal);
-}
-main {
-}
-.flex-wrap {
-  min-width: 100vw;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.card {
-  width: 95%;
-  max-width: 330px;
-  background-color: var(--white);
-  background-image: url("../images/bg-pattern-card.svg");
+  font-size: 18px;
+  font-weight: 400;
+  background-color: var(--darkCyan);
+  background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
   background-repeat: no-repeat;
-  min-height: 50%;
-  border-radius: 15px;
-  box-shadow: var(--cardShadow);
-}
-.profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 25%;
-}
-.profilepic {
-  border-radius: 50%;
-  border: solid 5px var(--white);
-}
-.profilename {
-  text-align: center;
-  padding: 1em 0;
-  line-height: 1.6;
-}
-.profilename h1 {
-  color: var(--darkBlue);
-  font-weight: var(--fontBold);
-  font-size: 1.2em;
-}
-.profilename h1 span {
-  color: var(--grayBlue);
-  font-weight: var(--fontNormal);
-  font-size: 1em;
-}
-.profilename p {
-  font-size: 0.9em;
-  padding-bottom: 0.5em;
-}
-hr {
-    border: 1px solid;
-    border-color: hsla(0, 0%, 59%, 0.151);
-    height: 1px;
-}
-.stats {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  text-align: center;
-  padding: 1.2em 0;
-  line-height: 1.6;
-}
-.stats .attributions span {
-  color: var(--darkBlue);
-  font-weight: var(--fontBold);
-  font-size: 1.1em;
-  padding: 0;
-}
-.stats .attributions .attribution {
-  color: var(--grayBlue);
-  font-weight: var(--fontNormal);
-  font-size: 0.625em;
-  list-style: none;
-  letter-spacing: 0.1em;
+  background-position: right 50vw bottom 20vh, left 45vw top 40vh ;
 }
 
-/* graphics */
-.flex-wrap {
-  color: var(--grayBlue);
-  background-color: var(--darkCyan);
-  background-image: url("../images/bg-pattern-top.svg"),
-    url("../images/bg-pattern-bottom.svg");
-  background-repeat: no-repeat;
-  background-position: right 52vw bottom 35vh, left 49vw top 49vh; /* this will push the images to corners */
+.card-container{
+  margin: 170px auto 50px;
+  width: 330px;
+  height: 380px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.bubbles{
+  background: url('../images/bg-pattern-card.svg');
+  height: 140px;
+}
+.photo{
+  position: absolute;
+  top: 87px;
+  left: 35%;
+  border: 5px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  height: 96px;
+}
+.personal-data-container{
+  background-color: white;
+  height: 150px;
+  padding: 75px;
+  text-align: center;
+}
+.name{
+  font-weight: 700;
+  color: var(--darkBlue);
+}
+.age, .city{
+  color: var(--darkGray);
+}
+.city{
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+.stats-cantainer{
+  background-color: white;
+  border-top: 1px solid var(--darkGray);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+}
+.statistics{
+  text-align: center;
+}
+.quantity{
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--darkBlue);
+}
+.units{
+  font-size: 0.6em;
+  color: var(--darkBlue);
+  letter-spacing: 2px;
+}
+
+
+/* ---------------------------Footer-------------------- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1440px){
+  .card-container{
+    width: 350px;
+  }
 }

@@ -1,67 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
 
-    <title>Frontend Mentor | Profile card component</title>
-    <link rel="stylesheet" href="./css/main.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <body>
-    <header></header>
+  <title>Frontend Mentor | Profile card component</title>
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
 
-    <main class="flex-wrap">
-      <div class="card">
-        <div class="profile">
-          <img
-            class="profilepic"
-            src="images/image-victor.jpg"
-            alt="profile picture"
-          />
-          <div class="profilename">
-            <h1 class="name">Victor Crest <span>26</span></h1>
-            <p>London</p>
-          </div>
-        </div>
+<body>
+  <div class="card-container">
+    <div class="bubbles"></div>
+    <div class="photo">
+      <img src="./images/image-victor.jpg" alt="Personal photo">
+    </div>
+    <div class="personal-data-container">
+      <span class="name">Victor Crest</span>
+      <span class="age">26</span>
+      <div class="city">London</div>
+    </div>
 
-        <hr/>
-
-        <div class="stats">
-          <div class="attributions">
-            <span>80K</span>
-            <div class="attribution">Followers</div class="attribution">
-          </div class="attributions">
-
-          <div class="attributions">
-            <span> 803K</span>
-            <div class="attribution">Likes</div>
-          </div class="attributions">
-
-          <div class="attributions">
-            <span>1.4K</span>
-            <div class="attribution">Photos</div class="attribution">
-          </div class="attributions">
-        </div>
+    <div class="stats-cantainer">
+      <div class="statistics">
+        <div class="quantity">80K</div>
+        <div class="units">Followers</div>
       </div>
-    </main>
-
-    <!--     <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a href="https://www.frontendmentor.io/profile/snehamoybag"
-          >Snehamoy Bag</a
-        >.
+      <div class="statistics">
+        <div class="quantity">803K</div>
+        <div class="units">Likes</div>
       </div>
-    </footer> -->
-  </body>
+      <div class="statistics">
+        <div class="quantity">1.4K</div>
+        <div class="units">Photos</div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Gustavo S. Dos Santos</a>.
+    </p>
+  </footer>
+</body>
+
 </html>
