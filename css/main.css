@@ -7,8 +7,6 @@
   --grayBlue: hsl(227, 10%, 46%);
   --darkGray: hsl(0, 0%, 59%);
   --white: hsl(0, 0%, 100%);
-  --fontNormal: 400;
-  --fontBold: 700;
   --bgImages: url("../images/bg-pattern-top.svg"),
     url("../images/bg-pattern-bottom.svg");
   --cardShadow: 0 10px 20px 10px hsla(0, 0%, 0%, 0.1);
@@ -23,7 +21,7 @@
 }
 body {
   font-family: "Kumbh Sans", sans-serif;
-  font-weight: var(--fontNormal);
+  font-weight: 400;
 }
 main {
 }
@@ -62,12 +60,12 @@ main {
 }
 .profilename h1 {
   color: var(--darkBlue);
-  font-weight: var(--fontBold);
+  font-weight: 700;
   font-size: 1.2em;
 }
 .profilename h1 span {
   color: var(--grayBlue);
-  font-weight: var(--fontNormal);
+  font-weight: 400;
   font-size: 1em;
 }
 .profilename p {
@@ -89,13 +87,13 @@ hr {
 }
 .stats .attributions span {
   color: var(--darkBlue);
-  font-weight: var(--fontBold);
+  font-weight: 700;
   font-size: 1.1em;
   padding: 0;
 }
 .stats .attributions .attribution {
   color: var(--grayBlue);
-  font-weight: var(--fontNormal);
+  font-weight: 400;
   font-size: 0.625em;
   list-style: none;
   letter-spacing: 0.1em;
@@ -109,4 +107,20 @@ hr {
     url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
   background-position: right 52vw bottom 35vh, left 49vw top 49vh; /* this will push the images to corners */
+}
+
+/* ---------------------------Footer-------------------- */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1440px){
+  .card-container{
+    width: 350px;
+  }
 }
