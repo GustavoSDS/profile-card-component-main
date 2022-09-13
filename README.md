@@ -52,19 +52,6 @@ Use this section to recap some of your main learnings while working on this proj
 
 -I'm not used to using pure css. For this project I had to learn the use of many CSS components. In particular, I have learned to use flexbox, grid, and the use of media queries. This helped me improve my development process.
 
-I'm not sure if these are the correct styles for the `<hr>` tag in this project, but they are the ones I used.
-```html
-  <hr />
-```
-```css
-  hr {
-  border: 0;
-  height: 1px;
-  opacity: 0.5;
-  background-color: var(--darkGray);
-}
-```
-
 ### Useful Resources
 
 - [Resource 1](http://thomashw.github.io/blog/2013/07/22/styling-a-horizontal-rule/) - This helped me style the `<hr>` htm tag
