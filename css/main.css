@@ -12,15 +12,19 @@
   --cardShadow: 0 10px 20px 10px hsla(0, 0%, 0%, 0.1);
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-weight: 400;
 }
+
 .flex-wrap {
   min-width: 100vw;
   min-height: 100vh;
@@ -28,6 +32,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .card {
   width: 95%;
   max-width: 330px;
@@ -38,6 +43,7 @@ body {
   border-radius: 15px;
   box-shadow: var(--cardShadow);
 }
+
 .profile {
   display: flex;
   flex-direction: column;
@@ -45,23 +51,28 @@ body {
   align-items: center;
   margin-top: 25%;
 }
+
 .profilepic {
   border-radius: 50%;
   border: solid 5px var(--white);
 }
+
 .profilename {
   text-align: center;
 }
+
 .profilename h1 {
   color: var(--darkBlue);
   font-weight: 700;
   font-size: 1.2em;
 }
+
 .profilename h1 span {
   color: var(--grayBlue);
   font-weight: 400;
   font-size: 1em;
 }
+
 .stats {
   display: flex;
   justify-content: space-evenly;
@@ -70,12 +81,14 @@ body {
   padding: 1.2em 0;
   line-height: 1.6;
 }
+
 .stats .attributions span {
   color: var(--darkBlue);
   font-weight: 700;
   font-size: 1.1em;
   padding: 0;
 }
+
 .stats .attributions .attribution {
   color: var(--grayBlue);
   font-weight: 400;
@@ -91,7 +104,8 @@ body {
   background-image: url("../images/bg-pattern-top.svg"),
     url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat;
-  background-position: right 52vw bottom 35vh, left 49vw top 49vh; /* this will push the images to corners */
+  background-position: right 52vw bottom 35vh, left 49vw top 49vh;
+  /* this will push the images to corners */
 }
 
 /* ---------------------------Footer-------------------- */
@@ -104,8 +118,8 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-@media screen and (min-width:1440px){
-  .card-container{
+@media screen and (min-width:1440px) {
+  .card-container {
     width: 350px;
   }
 }
